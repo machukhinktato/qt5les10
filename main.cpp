@@ -4,6 +4,7 @@
 #include "slider.h"
 #include "combobox.h"
 #include "spinbox.h"
+#include "ledit.h"
 
 int main(int argc, char *argv[]) {
     QApplication app(argc, argv);
@@ -11,10 +12,12 @@ int main(int argc, char *argv[]) {
 //    Label window;
 //    Slider window;
 //    ComboBoxEx window;
-    Spinbox window;
+//    Spinbox window;
+    Ledit window;
 
-    window.resize(300,150);
+//    window.resize(300,150);
     window.setWindowTitle("machukhinktato rule the ways");
     window.show();
+    
     return app.exec();
 }
